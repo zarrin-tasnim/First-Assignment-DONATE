@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.top-banner {
+    background: url(../images/donation13\(1\).jpg) no-repeat;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #FF5959;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Head-title CSS */
+.head-title {
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: 100px auto;
+    opacity: 1;
+}
+
+.head-title p {
+    font-size: 12px;
+    margin: 10px auto;
+    padding: 2%;
+    font-weight: 300;
+    width: 80%;
+}
+
+/* Donate-Today PART  CSS*/
+.donate-today-area {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.donate-today-title {
+    width: 700px;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+}
+
+.donate-today-area h2 {
+    margin: 60px auto 10px;
+
+}
+
+.donate-today-title p {
+    width: 60%;
+    font-size: 12px;
+    color: #7A7A7A;
+    margin: 10px auto;
+}
+
+.price-area {
+    width: 700px;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+}
+
+.price-box {
+    display: inline-block;
+    width: 90px;
+    height: 80px;
+    text-align: center;
+    color: #707070;
+    margin-left: 14px;
+    padding: 10px 10px;
+}
+
+.active-price-box {
+    border: 2px solid #FF5959;
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border-radius: 5px;
+}
+
+.price-box p {
+    text-align: center;
+    margin: 18px auto;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Footer part CSS */
+footer {
+    background-color: #0B0D17;
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+}
+
+footer h4 {
+    color: #FF5959;
+    margin: 10px auto;
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+footer p {
+    color: #D9DBE1;
+    font-size: 8px;
+}
