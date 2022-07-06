@@ -33,10 +33,11 @@ h2 {
     text-decoration: none;
     background-color: #FF5959;
     color: #fff;
-    padding: 10px 14px;
+    padding: 16px 20px;
     border-radius: 3px;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
+    margin-bottom: 30px;
 }
 
 /* Head-title CSS */
@@ -49,7 +50,7 @@ h2 {
 }
 
 .head-title p {
-    font-size: 12px;
+    font-size: 16px;
     margin: 10px auto;
     padding: 2%;
     font-weight: 300;
@@ -78,13 +79,13 @@ h2 {
     width: 70%;
     font-size: 16px;
     color: #7A7A7A;
-    margin: 40px auto;
+    margin: 20px auto;
 }
 
 .price-area {
     width: 90%;
     text-align: center;
-    margin: 20px auto;
+    margin: 40px auto;
     display: block;
 }
 
@@ -111,6 +112,112 @@ h2 {
     font-size: 18px;
     font-weight: 600;
 }
+
+.form-input-area {
+    width: 60%;
+    text-align: center;
+    margin: 40px auto;
+    display: block;
+}
+
+input {
+    width: 100%;
+
+}
+
+input[type=text] {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    opacity: 0.8;
+    border: none;
+    border-bottom: 2px solid #B3B3B3;
+}
+
+/*Donate plan Area CSS  */
+.donate-plan-area {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.donate-plan-title {
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+}
+
+.donate-plan-title p {
+    width: 70%;
+    font-size: 16px;
+    color: #7A7A7A;
+    margin: 20px auto;
+}
+
+.donate-plan-box {
+    width: 90%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.box-1-image {
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.box-1-image img {
+    width: 100%;
+    color: black;
+}
+
+.box-1 {
+    width: 350px;
+    height: 300px;
+    margin-right: 30px;
+}
+
+.box-content {
+    margin-left: 20px;
+}
+
+.box-content h4 {
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.box-content p {
+    font-size: 16px;
+    color: #707070;
+    margin-top: 10px;
+}
+
+#box-1-color {
+    background-color: #EDF5F6;
+}
+
+#box-2-color {
+    background-color: #ffd6e6;
+}
+
+#box-3-color {
+    background-color: #FFF4D6;
+}
+
+/* Extra Work ARE CSS */
+.extra-work-area {
+    width: 90%;
+    margin: 100px auto;
+}
+
+https: //www.antianimalcrueltycampaign.org/givingtuesday/
+
+.work-1 {}
+
+.work-1-image {}
+
+.work-1-content {}
 
 /* Footer part CSS */
 footer {
