@@ -132,11 +132,12 @@ input[type=text] {
     opacity: 0.8;
     border: none;
     border-bottom: 2px solid #B3B3B3;
+    margin-bottom: 20px;
 }
 
 /*Donate plan Area CSS  */
 .donate-plan-area {
-    width: 90%;
+    width: 80%;
     margin: 100px auto;
 }
 
